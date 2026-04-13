@@ -3,10 +3,8 @@
 🌐 Visit My Portfolio
 </a>
 <div align="center">
-
-  <img src="hello.jpeg" width="300">
-  <img src="bolo.jpeg" width="300">
-  <img src="Ai.jpeg" width="300">
+  <img src="bolo.jpeg" width="400">
+  <img src="Ai.jpeg" width="400">
 
 </div>
 <br/>
