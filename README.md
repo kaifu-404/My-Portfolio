@@ -3,9 +3,9 @@
 🌐 Visit My Portfolio
 </a>
 <div align="center">
-  <img src="hello.jpeg" alt="Demo Image" width="600">
+  <img src="hello.jpeg" alt="Demo Image" width="600"height="1200">
    <img src="bolo.jpeg" alt="Demo Image" width="600">
-   <img src="ai.jpeg" alt="Demo Image" width="600">
+   <img src="Ai.jpeg" alt="Demo Image" width="600">
 </div>
 <br/>
 ## 📌 About This Project
