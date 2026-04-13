@@ -1,9 +1,9 @@
 # My-Portfolio
-<h2 align="center">
-  Portfolio Website - v2.0<br/>
-</h2>
+<a href="https://kaifu-404.github.io/My-Portfolio/" target="_blank">
+🌐 Visit My Portfolio
+</a>
 <div align="center">
-  <img alt="Demo" src="./Images/hello.jpeg" />
+<img alt="Demo" src="./Images/hello.jpeg" width="600"/>
 </div>
 
 <br/>
@@ -44,16 +44,6 @@ This project was built using these technologies.
 ✅ Projects Showcase  
 ✅ Contact Form  
 ✅ Resume Download Option  
-## 🛠 Installation and Setup Instructions
-
-1. Installation: `npm install`
-
-2. In the project directory, you can run: `npm start`
-
-Runs the app in the development mode.\
-Open [http://localhost:3000](http://localhost:3000) to view it in the browser.
-The page will reload if you make edits.
-
       
 ### Show your support
 ## 🌍 Live Website
@@ -75,4 +65,5 @@ The page will reload if you make edits.
 ## ⭐ Support
 
 If you like this project, please give it a ⭐ on GitHub.
-<a href="https://www.buymeacoffee.com/soumyajit4419" target="_blank"><img src="https://cdn.buymeacoffee.com/buttons/v2/default-violet.png" alt="Buy Me A Coffee" height= "60px" width= "217px" ></a>
+
+![GitHub stars](https://img.shields.io/github/stars/kaifu-404/My-Portfolio?style=social)
