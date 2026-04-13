@@ -3,9 +3,8 @@
 🌐 Visit My Portfolio
 </a>
 <div align="center">
-<img alt="Demo" src="./Images/hello.jpeg" width="600"/>
+  <img src="hello.jpeg" alt="Demo Image" width="600">
 </div>
-
 <br/>
 ## 📌 About This Project
 
