@@ -4,6 +4,8 @@
 </a>
 <div align="center">
   <img src="hello.jpeg" alt="Demo Image" width="600">
+   <img src="bolo.jpeg" alt="Demo Image" width="600">
+   <img src="ai.jpeg" alt="Demo Image" width="600">
 </div>
 <br/>
 ## 📌 About This Project
