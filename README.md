@@ -49,17 +49,16 @@ This project was built using these technologies.
 ### Show your support
 ## 🌍 Live Website
 
-👉 https://kaifu-404.github.io/my-portfolio/
-
-(Deploy hone ke baad apna real link yaha paste karna)
-
+👉 https://kaifu-404.github.io/My-Portfolio/
 ---
 
 ## 📧 Contact Me
 
 - GitHub: https://github.com/kaifu-404  
-- LinkedIn: (Apna LinkedIn link add karo)  
-- Email: (Apna email add karo)  
+- LinkedIn: www.linkedin.com/in/
+william-kaif-ansari-a973b6295
+
+- Email: kaifansarikaifansari798@gmail.com
 
 ---
 
