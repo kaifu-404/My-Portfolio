@@ -91,15 +91,11 @@ gap: 40px;
 /* PARTICLES BACKGROUND */
 
 #particles-js{
-
 position: absolute;
-
 width: 100%;
 height: 100%;
-
 top: 0;
 left: 0;
-
 z-index: 0;
 
 }
@@ -125,7 +121,7 @@ align-items: center;
 
 }
 
-/* IMAGE BOX */
+/* IMAGE BOX *
 
 .img-box{
 
@@ -624,7 +620,6 @@ animation: showText 0.5s 1s linear forwards;
 opacity: 0;
 }
 
-/* FIXED */
 .technical-bars .bar .progress-line{
 position: relative;
 border-radius: 10px;
@@ -645,7 +640,6 @@ transform: scaleX(1);
 }
 }
 
-/* FIXED */
 .technical-bars .bar .progress-line span{
 height: 100%;
 background-color:#0ef;
@@ -749,7 +743,6 @@ margin-bottom: 10px;
 position: relative;
 }
 
-/* FIXED */
 .radial-bars .radial-bar svg{
 position: absolute;
 top: 50%;
@@ -1131,7 +1124,7 @@ height: 100%;
     color: #0ef;
 }
 
-.contact-icons i{
+.contact-icons a{
     display: inline-flex;
     justify-content: center;
     align-items: center;
@@ -1150,83 +1143,54 @@ height: 100%;
     animation-delay: calc(.2s*var(--i));
 
 }
+.contact-icons a:hover{
+    background: #0ef;
+    color:black;
+    box-shadow: 0 0 20px #0ef;
+}
 .contact-form form{
 position: relative;
 }
 
 /* FIXED selector + text color */
 
-.contact-form form input,
-.contact-form form textarea{
-
+.contact-form form input, .contact-form form textarea{
 border: none;
-
 outline: none;
-
 width: 90%;
-
 padding:18px;
-
 background:#555557;
-
-color: #fff;   /* FIXED */
-
+color: #fff;  
 font-size: 1rem;
-
 font-weight: 600;
-
 margin-bottom: 0.5rem;
-
 border-radius:0.5rem;
-
 }
 
 /* Placeholder color */
-
 .contact-form form input::placeholder,
 .contact-form form textarea::placeholder{
-
 color: #ccc;
-
 }
 
 /* Button */
-
 .contact-form form .send{
-
 display: inline-block;
-
 padding: 12px 28px;
-
 background:#0ef;
-
 border-radius: 40px;
-
 font-size: 16px;
-
 color: #081b29;
-
 letter-spacing: 1px;
-
 text-decoration: none;
-
 font-weight: 600;
-
-opacity: 1;   /* FIXED (pehle 0 tha) */
-
+opacity: 1;   
 animation: slideTop 1s ease forwards;
-
 animation-delay: .2s;
-
 box-shadow: 0 0 5px #0ef,
             0 0 25px #0ef;
-
 }
-
-/* Hover */
-
 .contact-form form .send:hover{
-
 box-shadow: 0 0 5px cyan,
             0 0 25px cyan,
             0 0 50px cyan,
@@ -1236,7 +1200,6 @@ box-shadow: 0 0 5px cyan,
 }
 
 /* Footer */
-
 .footer{
 position: relative;
 width: 100%;
@@ -1307,103 +1270,66 @@ padding: 80px 0;
 }
 
 .cert-list{
-
 display: grid;
-
 grid-template-columns: repeat(auto-fit,minmax(250px,1fr));
-
 gap: 40px;
-
 margin-top: 40px;
-
 padding: 0 90px;
-
 }
 
 .cert-box{
-
 text-align: center;
-
 padding: 40px;
-
 border-radius: 20px;
-
 box-shadow: 1px 1px 20px #012290f7,
             1px 1px 40px #0053b8f7;
-
 transition: 0.5s;
-
 }
 
 .cert-box i{
-
 font-size: 50px;
-
 color: #0ef;
-
-margin-bottom: 20px;
+argin-bottom: 20px;
 
 }
-
 .cert-box:hover{
-
 transform: translateY(-10px);
 
 }
 .project-list{
-
 display: grid;
-
 grid-template-columns: repeat(auto-fit,minmax(250px,1fr));
-
 gap: 40px;
-
 margin-top: 40px;
-
 padding: 0 90px;
-
 }
-
 .project-box{
-
 padding: 40px;
-
 border-radius: 20px;
-
 text-align: center;
-
 box-shadow: 1px 1px 20px #012290f7,
             1px 1px 40px #0053b8f7;
 
 transition: 0.5s;
-
 }
-
 .project-box:hover{
-
 transform: translateY(-10px);
 
 }
-/* Resume Section */
 
+/* Resume Section */
 .resume{
 
 padding: 100px 10%;
-
 text-align: center;
-
 }
 
 /* Resume Box */
 
 .resume-box{
-
 margin-top: 30px;
-
 display: flex;
-
 flex-direction: column;   /* IMPORTANT — niche layega */
-
 align-items: center;
 
 gap: 20px;
@@ -1413,21 +1339,13 @@ gap: 20px;
 /* Resume Text */
 
 .resume-box p{
-
 font-size: 18px;
-
 color: #ccc;
-
 max-width: 500px;
-
 }
-
 /* Resume Button */
-
 .resume-box .btn-box{
-
 margin-top: 10px;
-
 }
 /* MENU ICON */
 
@@ -1452,15 +1370,11 @@ margin-top: 10px;
     left: 0;
     width: 100%;
     background: #051129;
-
     display: flex;
     flex-direction: column;
-
     text-align: center;
-
     max-height: 0;
     overflow: hidden;
-
     transition: 0.3s;
 }
 
