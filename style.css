@@ -91,11 +91,15 @@ gap: 40px;
 /* PARTICLES BACKGROUND */
 
 #particles-js{
+
 position: absolute;
+
 width: 100%;
 height: 100%;
+
 top: 0;
 left: 0;
+
 z-index: 0;
 
 }
@@ -121,7 +125,7 @@ align-items: center;
 
 }
 
-/* IMAGE BOX *
+/* IMAGE BOX */
 
 .img-box{
 
@@ -486,8 +490,6 @@ color:#0ef;
 padding: 90px;
 }
 
-/* YAHAN ADD KARO */
-
 #services .container{
 max-width: 1100px;
 margin: auto;
@@ -594,7 +596,7 @@ margin: 0 auto;
 font-size: 23px;
 }
 
-/* FIXED */
+
 .technical-bars .bar {
     margin: 40px 0;
 }
@@ -612,7 +614,6 @@ margin-bottom: 0;
 margin-bottom: 5px;
 }
 
-/* FIXED */
 .technical-bars .bar .info span{
 font-size: 17px;
 font-weight: 500;
@@ -620,6 +621,7 @@ animation: showText 0.5s 1s linear forwards;
 opacity: 0;
 }
 
+/* FIXED */
 .technical-bars .bar .progress-line{
 position: relative;
 border-radius: 10px;
@@ -627,7 +629,7 @@ width: 100%;
 height: 5px;
 background-color:#000000;
 
-/* FIXED cubic-bezier */
+
 animation: animate 1s cubic-bezier(1,0,0,1) forwards;
 
 transform: scaleX(0);
@@ -735,7 +737,6 @@ justify-content: space-evenly;
 align-items: flex-start;
 }
 
-/* FIXED */
 .radial-bars .radial-bar{
 width: 50%;
 height: 170px;
@@ -752,7 +753,6 @@ width: 120px;
 height: 160px;
 }
 
-/* FIXED */
 .radial-bars .radial-bar .progress-bar{
 stroke-width: 10;
 stroke: black;
@@ -820,7 +820,7 @@ animation: showText 0.5s 1s linear forwards;
 opacity: 0;
 }
 
-/* FIXED */
+
 .radial-bar .text{
 width: 100%;
 position: absolute;
@@ -894,7 +894,7 @@ opacity: 0;
 .portfolio-content{
     display:grid;
     grid-template-columns: repeat(auto-fit,minmax(359px,auto));
-    gap: 20px;   /* spacing add */
+    gap: 20px;  
 }
 
 
@@ -954,7 +954,7 @@ grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
 
 gap: 25px;   /* IMPORTANT spacing */
 
-margin-top: 20px;   /* FIXED */
+margin-top: 20px;   
 
 }
 
@@ -1036,9 +1036,9 @@ height: 100%;
 
     overflow: hidden;
 
-    display: flex;              /* FIXED */
+    display: flex;              
     flex-direction: column;
-    justify-content: center;    /* FIXED */
+    justify-content: center; 
     align-items:center ;
 
     padding:0 40px;
@@ -1154,43 +1154,77 @@ position: relative;
 
 /* FIXED selector + text color */
 
-.contact-form form input, .contact-form form textarea{
+.contact-form form input,
+.contact-form form textarea{
+
 border: none;
+
 outline: none;
+
 width: 90%;
+
 padding:18px;
+
 background:#555557;
+
 color: #fff;  
+
 font-size: 1rem;
+
 font-weight: 600;
+
 margin-bottom: 0.5rem;
+
 border-radius:0.5rem;
+
 }
 
 /* Placeholder color */
+
 .contact-form form input::placeholder,
 .contact-form form textarea::placeholder{
+
 color: #ccc;
+
 }
 
 /* Button */
+
 .contact-form form .send{
+
 display: inline-block;
+
 padding: 12px 28px;
+
 background:#0ef;
+
 border-radius: 40px;
+
 font-size: 16px;
+
 color: #081b29;
+
 letter-spacing: 1px;
+
 text-decoration: none;
+
 font-weight: 600;
-opacity: 1;   
+
+opacity: 1;  
+
 animation: slideTop 1s ease forwards;
+
 animation-delay: .2s;
+
 box-shadow: 0 0 5px #0ef,
             0 0 25px #0ef;
+
 }
+
+/* Hover */
+
 .contact-form form .send:hover{
+
 box-shadow: 0 0 5px cyan,
             0 0 25px cyan,
             0 0 50px cyan,
@@ -1200,6 +1234,7 @@ box-shadow: 0 0 5px cyan,
 }
 
 /* Footer */
+
 .footer{
 position: relative;
 width: 100%;
@@ -1270,66 +1305,103 @@ padding: 80px 0;
 }
 
 .cert-list{
+
 display: grid;
+
 grid-template-columns: repeat(auto-fit,minmax(250px,1fr));
+
 gap: 40px;
+
 margin-top: 40px;
+
 padding: 0 90px;
+
 }
 
 .cert-box{
+
 text-align: center;
+
 padding: 40px;
+
 border-radius: 20px;
+
 box-shadow: 1px 1px 20px #012290f7,
             1px 1px 40px #0053b8f7;
+
 transition: 0.5s;
+
 }
 
 .cert-box i{
+
 font-size: 50px;
+
 color: #0ef;
-argin-bottom: 20px;
+
+margin-bottom: 20px;
 
 }
+
 .cert-box:hover{
+
 transform: translateY(-10px);
 
 }
 .project-list{
+
 display: grid;
+
 grid-template-columns: repeat(auto-fit,minmax(250px,1fr));
+
 gap: 40px;
+
 margin-top: 40px;
+
 padding: 0 90px;
+
 }
+
 .project-box{
+
 padding: 40px;
+
 border-radius: 20px;
+
 text-align: center;
+
 box-shadow: 1px 1px 20px #012290f7,
             1px 1px 40px #0053b8f7;
 
 transition: 0.5s;
+
 }
+
 .project-box:hover{
+
 transform: translateY(-10px);
 
 }
-
 /* Resume Section */
+
 .resume{
 
 padding: 100px 10%;
+
 text-align: center;
+
 }
 
 /* Resume Box */
 
 .resume-box{
+
 margin-top: 30px;
+
 display: flex;
+
 flex-direction: column;   /* IMPORTANT — niche layega */
+
 align-items: center;
 
 gap: 20px;
@@ -1339,13 +1411,21 @@ gap: 20px;
 /* Resume Text */
 
 .resume-box p{
+
 font-size: 18px;
+
 color: #ccc;
+
 max-width: 500px;
+
 }
+
 /* Resume Button */
+
 .resume-box .btn-box{
+
 margin-top: 10px;
+
 }
 /* MENU ICON */
 
@@ -1370,11 +1450,15 @@ margin-top: 10px;
     left: 0;
     width: 100%;
     background: #051129;
+
     display: flex;
     flex-direction: column;
+
     text-align: center;
+
     max-height: 0;
     overflow: hidden;
+
     transition: 0.3s;
 }
 
