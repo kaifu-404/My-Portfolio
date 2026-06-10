@@ -1,10 +1,18 @@
 var typed = new Typed(".text", {
-    strings: ["Frontend Developer", "YouTuber", "Web Developer"],
+    strings: ["Kaif Ansari "],
     typeSpeed: 100,
     backSpeed: 80,
     backDelay: 1000,
     loop: true
-}); 
+});
+
+var typed2 = new Typed(".text2", {
+    strings: ["Full Stack Developer", "Java Developer","Youtuber","DSA Problem Solving"],
+    typeSpeed: 100,
+    backSpeed: 80,
+    backDelay: 1000,
+    loop: true
+});
 particlesJS("particles-js", {
 
 "particles": {
@@ -77,3 +85,18 @@ let navbar = document.querySelector(".navbar");
 menuIcon.onclick = () => {
     navbar.classList.toggle("active");
 };
+const serviceBoxes = document.querySelectorAll('.service-box');
+
+const observer = new IntersectionObserver((entries) => {
+    entries.forEach(entry => {
+        if(entry.isIntersecting){
+            entry.target.classList.add('show');
+        }
+    });
+}, {
+    threshold: 0.2
+});
+
+serviceBoxes.forEach(box => {
+    observer.observe(box);
+});
